@@ -1,0 +1,7 @@
+[package]
+name = "lpc11uxx-hal"
+version = "0.1.0"
+authors = ["Raphael Nestler <raphael.nestler@gmail.com>"]
+
+[dependencies]
+lpc11uxx = "0.2"
