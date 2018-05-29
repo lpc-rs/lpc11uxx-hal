@@ -2,6 +2,11 @@
 name = "lpc11uxx-hal"
 version = "0.1.0"
 authors = ["Raphael Nestler <raphael.nestler@gmail.com>"]
+categories = ["embedded", "hardware-support", "no-std"]
+description "HAL for the LPC11Uxx family of µ-controllers"
+keywords = ["arm", "cortex-m", 2lpc11", "hal"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/coredump-ch/lpc11uxx-hal-rs"
 
 [dependencies]
 lpc11uxx = "0.2"
