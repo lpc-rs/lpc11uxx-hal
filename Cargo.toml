@@ -5,3 +5,5 @@ authors = ["Raphael Nestler <raphael.nestler@gmail.com>"]
 
 [dependencies]
 lpc11uxx = "0.2"
+cortex-m = "0.5"
+embedded-hal = "0.2"
