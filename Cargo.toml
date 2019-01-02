@@ -10,6 +10,7 @@ description = "HAL for the LPC11Uxx family of µ-controllers"
 keywords = ["arm", "cortex-m", "lpc11", "hal"]
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/coredump-ch/lpc11uxx-hal-rs"
+edition = "2018"
 
 [dependencies]
 lpc11uxx = "0.3"

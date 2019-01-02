@@ -1,7 +1,7 @@
-use hal::blocking::delay::{DelayMs, DelayUs};
-
-use lpc11uxx::SYST;
 use cortex_m::peripheral::syst::SystClkSource;
+use embedded_hal::blocking::delay::{DelayMs, DelayUs};
+use lpc11uxx::SYST;
+
 
 pub struct Delay {
     syst: SYST,
