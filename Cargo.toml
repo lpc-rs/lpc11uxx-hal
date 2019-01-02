@@ -1,7 +1,10 @@
 [package]
 name = "lpc11uxx-hal"
 version = "0.1.0"
-authors = ["Raphael Nestler <raphael.nestler@gmail.com>"]
+authors = [
+    "Raphael Nestler <raphael.nestler@gmail.com>",
+    "Danilo Bargen <mail@dbrgn.ch>",
+]
 categories = ["embedded", "hardware-support", "no-std"]
 description = "HAL for the LPC11Uxx family of µ-controllers"
 keywords = ["arm", "cortex-m", "lpc11", "hal"]
