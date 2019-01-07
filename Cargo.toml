@@ -12,6 +12,6 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/coredump-ch/lpc11uxx-hal-rs"
 
 [dependencies]
-lpc11uxx = "0.2"
+lpc11uxx = "0.3"
 cortex-m = "0.5"
 embedded-hal = "0.2"
