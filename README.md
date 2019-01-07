@@ -3,6 +3,10 @@
 [HAL](https://crates.io/crates/embedded-hal) implementation for the LPC11Uxx
 family of µ-controllers.
 
+Reference:
+
+- [User manual](https://www.pololu.com/file/0J553/UM10462.pdf)
+
 **Note: This is work in progress and not much has been implemented so far!**
 
 ## License

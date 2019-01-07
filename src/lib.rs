@@ -5,3 +5,4 @@
 pub use lpc11uxx;
 
 pub mod delay;
+pub mod serial;
