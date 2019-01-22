@@ -13,6 +13,6 @@ repository = "https://github.com/coredump-ch/lpc11uxx-hal-rs"
 edition = "2018"
 
 [dependencies]
-lpc11uxx = "0.3"
+lpc11uxx = { git="https://github.com/lpc-rs/lpc-pac", branch="use-nightly" }
 cortex-m = "0.5"
 embedded-hal = "0.2"
