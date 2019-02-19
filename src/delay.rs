@@ -21,8 +21,12 @@ impl Delay {
 }
 
 impl DelayMs<u32> for Delay {
-    fn delay_ms(&mut self, ms: u32) {
-        // TODO: may overflow
+    fn delay_ms(&mut self, mut ms: u32) {
+        let max_ms = (1<<24) / self.clock_speed_mhz / 1000;
+        while ms > max_ms {
+            self.delay_us(max_ms * 1_000);
+            ms -= max_ms;
+        }
         self.delay_us(ms * 1_000);
     }
 }
